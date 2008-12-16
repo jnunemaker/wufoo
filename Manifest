@@ -1,0 +1,9 @@
+History
+lib/wufoo/version.rb
+lib/wufoo.rb
+MIT-LICENSE
+Rakefile
+README
+test/test_helper.rb
+test/test_wufoo.rb
+Manifest
