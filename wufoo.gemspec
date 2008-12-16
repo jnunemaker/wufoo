@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wufoo}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Nunemaker"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{simple wrapper for the wufoo api}
   s.email = %q{nunemaker@gmail.com}
   s.extra_rdoc_files = ["lib/wufoo/version.rb", "lib/wufoo.rb", "README"]
-  s.files = ["History", "lib/wufoo/version.rb", "lib/wufoo.rb", "MIT-LICENSE", "Rakefile", "README", "test/test_helper.rb", "test/test_wufoo.rb", "Manifest", "wufoo.gemspec"]
+  s.files = ["History", "lib/wufoo/version.rb", "lib/wufoo.rb", "Manifest", "MIT-LICENSE", "Rakefile", "README", "test/test_helper.rb", "test/test_wufoo.rb", "wufoo.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Wufoo", "--main", "README"]

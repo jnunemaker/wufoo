@@ -7,3 +7,4 @@ Rakefile
 README
 test/test_helper.rb
 test/test_wufoo.rb
+wufoo.gemspec
