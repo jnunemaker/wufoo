@@ -1,0 +1,17 @@
+= wufoo
+
+== DESCRIPTION:
+
+Currently it wraps the wufoo form submission api. Feel free to make additions to help it wrap their entire api.
+
+== EXAMPLES:
+
+See http://github.com/jnunemaker/wufoo/tree/master/examples
+
+== REQUIREMENTS:
+
+* HTTParty
+
+== INSTALL:
+
+* sudo gem install jnunemaker-wufoo --source http://gems.github.com
