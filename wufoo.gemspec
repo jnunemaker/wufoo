@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wufoo}
-  s.version = "0.1.1"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Nunemaker"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{simple wrapper for the wufoo api}
   s.email = %q{nunemaker@gmail.com}
   s.extra_rdoc_files = ["lib/wufoo/version.rb", "lib/wufoo.rb", "README"]
-  s.files = ["History", "lib/wufoo/version.rb", "lib/wufoo.rb", "Manifest", "MIT-LICENSE", "Rakefile", "README", "test/test_helper.rb", "test/test_wufoo.rb", "wufoo.gemspec"]
+  s.files = ["History", "lib/wufoo/version.rb", "lib/wufoo.rb", "Manifest", "MIT-LICENSE", "Rakefile", "README", "test/test_helper.rb", "test/test_wufoo.rb", "wufoo.gemspec", "test/test_client.rb", "test/test_submission.rb"]
   s.has_rdoc = true
   s.homepage = %q{}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Wufoo", "--main", "README"]
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = %q{wufoo}
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{simple wrapper for the wufoo api}
-  s.test_files = ["test/test_helper.rb", "test/test_wufoo.rb"]
+  s.test_files = ["test/test_client.rb", "test/test_helper.rb", "test/test_submission.rb", "test/test_wufoo.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

@@ -1,10 +1,15 @@
+examples/submission.rb
 History
+lib/wufoo/client.rb
+lib/wufoo/submission.rb
 lib/wufoo/version.rb
 lib/wufoo.rb
 Manifest
 MIT-LICENSE
 Rakefile
 README
+test/test_client.rb
 test/test_helper.rb
+test/test_submission.rb
 test/test_wufoo.rb
 wufoo.gemspec
