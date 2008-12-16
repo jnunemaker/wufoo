@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = %q{2008-12-16}
   s.description = %q{simple wrapper for the wufoo api}
   s.email = %q{nunemaker@gmail.com}
-  s.extra_rdoc_files = ["lib/wufoo/version.rb", "lib/wufoo.rb", "README"]
-  s.files = ["History", "lib/wufoo/version.rb", "lib/wufoo.rb", "Manifest", "MIT-LICENSE", "Rakefile", "README", "test/test_helper.rb", "test/test_wufoo.rb", "wufoo.gemspec", "test/test_client.rb", "test/test_submission.rb"]
+  s.extra_rdoc_files = ["lib/wufoo/client.rb", "lib/wufoo/submission.rb", "lib/wufoo/version.rb", "lib/wufoo.rb", "README"]
+  s.files = ["examples/submission.rb", "History", "lib/wufoo/client.rb", "lib/wufoo/submission.rb", "lib/wufoo/version.rb", "lib/wufoo.rb", "Manifest", "MIT-LICENSE", "Rakefile", "README", "test/test_client.rb", "test/test_helper.rb", "test/test_submission.rb", "test/test_wufoo.rb", "wufoo.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Wufoo", "--main", "README"]

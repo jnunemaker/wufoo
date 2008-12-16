@@ -12,4 +12,3 @@ test/test_client.rb
 test/test_helper.rb
 test/test_submission.rb
 test/test_wufoo.rb
-wufoo.gemspec
