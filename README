@@ -15,3 +15,7 @@ See http://github.com/jnunemaker/wufoo/tree/master/examples
 == INSTALL:
 
 * sudo gem install jnunemaker-wufoo --source http://gems.github.com
+
+== DOCS:
+
+http://rdoc.info/projects/jnunemaker/wufoo
